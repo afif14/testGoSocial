@@ -1,0 +1,407 @@
+body {
+    background-color: #f4f4f4;
+    font-family: "Open Sans", sans-serif;
+}
+
+.card-account {
+    margin: 16px auto;
+    max-width: 92%;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: 0px 6px 12px rgba(140, 152, 164, 0.075);
+    padding: 1.25rem 16px;
+}
+
+.container-name {
+    margin-right: 40px;
+}
+.photo-profil {
+    position: relative;
+}
+
+.green-circle {
+    position: absolute;
+    top: 55px;
+    bottom: 0;
+    right: 0;
+    height: 12px;
+    width: 12px;
+    background: #00c9a7;
+    border: 2px solid #ffffff;
+    border-radius: 6px;
+}
+
+.text-name {
+    font-weight: 600;
+    font-size: 18.375px;
+    line-height: 26px;
+    color: #377dff;
+}
+
+.location-icon {
+    margin-right: 11px;
+}
+
+.text-place {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #677788;
+}
+
+.btn-booster {
+    background-color: #377dff1a;
+    border: none;
+    padding: 8px 6px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 10.5px;
+    line-height: 10px;
+    color: #377dff;
+    margin-left: auto;
+}
+
+.profil {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.container-location {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.saldo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 14.5px;
+}
+
+.total-saldo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.text-your-saldo {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: #677788;
+}
+
+.amount {
+    font-weight: 600;
+    font-size: 20.9816px;
+    line-height: 29px;
+    color: #377dff;
+}
+
+.btn-saldo {
+    background-color: #377dff;
+    border: 1px solid #377dff;
+    border-radius: 4px;
+    color: white;
+    padding: 8px 11px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.card-progress {
+    background: #ffffff;
+    border: 1px solid rgba(231, 234, 243, 0.7);
+    box-shadow: 0px 6px 12px rgba(140, 152, 164, 0.075);
+    border-radius: 12px;
+    border-top: 4px solid #377dff;
+    padding: 19px 13px;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.card-progress-body {
+    text-align: center;
+}
+
+.card-progress-text-body {
+    font-weight: 600;
+    font-size: 18.575px;
+    line-height: 26px;
+    color: #21325b;
+    margin-bottom: 8px;
+}
+
+.card-progress-subtext-body {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #21325b;
+}
+
+.card-progress-text-brand {
+    font-weight: 700;
+    font-size: 11.2px;
+    line-height: 18px;
+    color: #8c98a4;
+    margin: 13px 0 10px 0;
+}
+
+.container-card-progress-profil {
+    margin-bottom: 19px;
+}
+
+.card-progress-footer {
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.btn-booster-trending-card {
+    background-color: #377dff1a;
+    border: none;
+    padding: 8px 6px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 10.5px;
+    line-height: 10px;
+    color: #377dff;
+    position: absolute;
+    transform: translate(16px, 16px);
+}
+
+.trending-card {
+    background: #ffffff;
+    border: 1px solid rgba(231, 234, 243, 0.7);
+    box-shadow: 0px 6px 12px rgba(140, 152, 164, 0.075);
+    border-radius: 12px;
+    overflow: hidden;
+    max-width: 91.5%;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+.trending-card > img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.trending-card-heading {
+    display: flex;
+    padding: 18px 20px;
+}
+
+.container-trending-text-heading {
+    margin-left: 16px;
+}
+
+.trending-card-text-heading {
+    font-weight: 600;
+    font-size: 18.375px;
+    line-height: 26px;
+    color: #377dff;
+}
+
+.trending-card-subtext-heading {
+    font-weight: 400;
+    font-size: 11.2px;
+    line-height: 18px;
+    color: #8c98a4;
+}
+
+.trending-card-body {
+    display: flex;
+    padding: 18px 20px;
+    justify-content: space-evenly;
+}
+
+.trending-card-text-body {
+    font-weight: 600;
+    font-size: 11.2px;
+    line-height: 18px;
+    color: #8c98a4;
+}
+
+.trending-card-amount-text {
+    font-weight: 600;
+    font-size: 23.05px;
+    line-height: 32px;
+    color: #1e2022;
+}
+
+.trending-card-like-text {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    color: #1e2022;
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.trending-card-per-text {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    color: #1e2022;
+
+    margin-top: 8px;
+}
+
+.trending-card-per-text span {
+    color: #00c9a7;
+}
+
+.trending-card-footer {
+    display: flex;
+    padding: 18px 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.trending-card-text-footer {
+    font-weight: 600;
+    font-size: 11.2px;
+    line-height: 18px;
+    color: #8c98a4;
+    letter-spacing: 0.5px;
+}
+
+.trending-card-subtext-footer {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: #377dff;
+}
+
+.channel-trending-card {
+    display: flex;
+    align-items: center;
+}
+
+.job-progress {
+    border-right: 1px solid #e7eaf3;
+    padding-right: 35px;
+}
+
+.text-job-progress {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: #677788;
+}
+
+.total-job-progress {
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 29px;
+    color: #377dff;
+}
+
+.total-job-done {
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 29px;
+    color: #00c9a7;
+}
+
+.slider-card-info {
+    background-color: white;
+    padding-bottom: 10px;
+}
+
+.swipper {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    overflow-y: auto;
+    padding: 0 16px;
+}
+.swipper::-webkit-scrollbar {
+    height: 0px;
+    width: 0px;
+}
+
+.card-info {
+    background-color: #21325b;
+    box-shadow: 0px 10px 40px 10px rgba(140, 152, 164, 0.175);
+    border-radius: 12px;
+    border: 1px solid #21325b;
+    color: white;
+    padding: 15px 10px;
+    min-width: 70%;
+    margin: 0 auto;
+}
+
+.card-info-text-heading {
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.card-info-text-body {
+    margin-top: 14px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.container-card-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-update {
+    background-color: white;
+    padding-bottom: 60px;
+}
+
+.update-card {
+    background: #ffffff;
+    border: 1px solid rgba(231, 234, 243, 0.7);
+    box-shadow: 0px 6px 12px rgba(140, 152, 164, 0.075);
+    border-radius: 12px;
+    padding: 19px 18px;
+    max-width: 90%;
+    margin: 0 auto 25px;
+}
+
+.update-card-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.update-card-text-heading {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #377dff;
+}
+
+.update-card-subtext-heading {
+    font-weight: 400;
+    font-size: 11.2px;
+    line-height: 18px;
+    color: #8c98a4;
+}
+
+.update-card-body {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.update-card-text-body {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 26px;
+    color: #1e2022;
+    margin-left: 13px;
+}
